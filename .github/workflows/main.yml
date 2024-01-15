@@ -5,8 +5,8 @@ on:
   pull_request:
     types: [ "labeled", "opened", "synchronize", "reopened" ]
   push:
-  schedule:
-    - cron: '10 3 * * 1'
+  #schedule:
+  #  - cron: '10 3 * * 1'
 
 jobs:
   packages:
